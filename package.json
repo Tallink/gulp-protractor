@@ -31,14 +31,16 @@
     "async": "^1.5.2",
     "dargs": "^4.1.0",
     "event-stream": "~3.3.0",
-    "gulp-util": ">=2.2.14 <4.0.0",
-    "protractor": ">=4 <5"
+    "gulp-util": ">=2.2.14 <4.0.0"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
     "mocha": "^2.4.5",
     "rewire": "^2.5.1",
     "sinon": "^1.17.3"
+  },
+  "peerDependencies": {
+    "protractor": "*"
   },
   "engines": {
     "node": ">=4.2.0",
